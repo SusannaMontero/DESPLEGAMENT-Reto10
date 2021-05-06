@@ -1,15 +1,15 @@
-import Home from '../views/home.js'
+import {pages} from '../controllers/index'
 
 let content = document.getElementById('root');
 
-const router = (route) => {
+const router = async (route) => {
     //Para limpiar el contenido cada vez que cambia
     content.innerHTML = '';
     switch(route) {
         case '#/':
-            return content.appendChild(Home());
+            return content.appendChild(pages.home());
         case '#/posts':
-            return console.log("posts!")
+            return content.appendChild(await pages.posts());
         case '#/products':
             return console.log("products!")
         default:
@@ -18,5 +18,5 @@ const router = (route) => {
 
 }
 
-//Exportar para poder utilizar en un import en main.js
+//Exportar para poder utilizar en un import en main js
 export {router};
