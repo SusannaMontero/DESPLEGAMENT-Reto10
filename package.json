@@ -18,7 +18,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/main.js",
+    "start": "node dist/bundle.js",
     "postinstall": "npx webpack"
   },
   "repository": {
