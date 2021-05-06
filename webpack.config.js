@@ -2,6 +2,14 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+  // añadido buscando en google CUIDADO FUNCIONA**********************
+    mode: 'development',
+    devtool: 'eval',
+    cache: true,
+    performance: {
+      hints: false
+    },
+  // añadido buscando en google CUIDADO FUNCIONA**********************
     entry: './src/main.js',
     output: {
         path: __dirname + '/dist',
