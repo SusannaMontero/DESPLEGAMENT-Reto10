@@ -18,9 +18,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=production node src/main.js",
+    "start": "node src/main.js",
     "postinstall": "npm run build",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
