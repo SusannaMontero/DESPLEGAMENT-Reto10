@@ -18,6 +18,10 @@ module.exports = {
     module: {
         rules: [
           {
+            test: /\.html$/i,
+            loader: 'html-loader',
+          },
+          {
             // Webpack loader de css
             test: /\.css$/i,
             use: ['style-loader', 'css-loader']

@@ -13,3 +13,4 @@ instalar sass npm 'npm install node-sass'
 instalar sass loader webpack 'npm install sass-loader'
 ejecutar 'npm init -y' para ver los paquetes instalados
 instalar bootstrap 'npm install bootstrap'
+instalar loader de html 'npm install html-loader'
