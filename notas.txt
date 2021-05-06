@@ -1,0 +1,14 @@
+Hace falta tener node js instalado
+Instalar webpack con 'npm i webpack -D'
+Crear archivo 'webpack.config.js'
+'npx' para ejecutar el comando de 'webpack.config.js'
+Te dara error i te pedira instalar automaticamente 'webpack-cli' sino escribes 'npm install -D webpack-cli'
+Si te da error volver a ejecutar 'npx webpack'(comando para ejecutar el webpack.config)
+Instalar 'npm i html-webpack-plugin -D'
+Instalar 'npm i webpack-dev-server -D'
+Para ejectuar servidor en local 'npx webpack serve'
+instalar 'npm install css-loader' para cargar el css des de el main.js
+instalar 'npm install style-loader'
+instalar sass npm 'npm install node-sass'
+instalar sass loader webpack 'npm install sass-loader'
+ejecutar 'npm init -y' para ver los paquetes instalados

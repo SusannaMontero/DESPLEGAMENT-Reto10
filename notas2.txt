@@ -1,0 +1,1 @@
+La carpeta src es para el desarrollador mientras que la carpeta dist es para entregar al navegador
