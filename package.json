@@ -19,8 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/main.js",
-    "postinstall": "npm run build",
-    "build": "webpack"
+    "postinstall": "npx webpack"
   },
   "repository": {
     "type": "git",
