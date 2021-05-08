@@ -1,4 +1,18 @@
 import "./styles/app.css";
+import "./styles/404.css";
+import "./styles/coming-soon.css";
+import "./styles/dark-coders.css";
+import "./styles/descargas.css";
+import "./styles/footer.css";
+import "./styles/forms.css";
+import "./styles/gallery.css";
+import "./styles/header.css";
+import "./styles/navbar.css";
+import "./styles/reset.css";
+import "./styles/reset.css";
+import "./styles/styles.css";
+import "./styles/variables.css";
+
 
 import Book from './models/Book.js';
 import UI from './UI.js';
